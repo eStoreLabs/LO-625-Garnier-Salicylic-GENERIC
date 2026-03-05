@@ -2,11 +2,7 @@
 
 $es-montserrat: "Montserrat", sans-serif;
 $es-white: #ffffff;
-$es-yellow: #fef115;
-$es-yellow-light: #f4ec94;
 $es-bgcolor: #f4fbfb;
-$es-orange: #e95817;
-$es-orange-dark: #7c2e0c;
 $es-black: #0F322A;
 $color-teal: #61D7C6;
 $color-yellow: #e8c84a;
@@ -458,8 +454,6 @@ $color-text: #111;
       }
     }
 
-    &__slide {}
-
     &__imgbut {
       margin: 0 auto;
       min-height: 490px;
@@ -519,10 +513,6 @@ $color-text: #111;
     .es-swiper-container-rtl .es-swiper-button-next {
       left: -1%;
     }
-  }
-
-  .swiper-pagination-bullet-active {
-    background-color: $es-orange;
   }
 
   .es-logos {
