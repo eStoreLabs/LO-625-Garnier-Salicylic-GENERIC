@@ -118,7 +118,7 @@ $color-text: #111;
       top: 0;
       left: 0;
       width: 45%;
-      animation: slideleft 1s ease forwards;
+      animation: es-slideleft 1s ease forwards;
       z-index: 3;
     }
 
@@ -127,7 +127,7 @@ $color-text: #111;
       bottom: 0px;
       right: 25%;
       width: 20%;
-      animation: slideleft 2s ease forwards;
+      animation: es-slideleft 2s ease forwards;
       z-index: 2;
 
       &--photo {
@@ -153,7 +153,7 @@ $color-text: #111;
       bottom: 10px;
       right: -10%;
       width: 55%;
-      animation: pulse2 3s infinite;
+      animation: es-pulse2 3s infinite;
       z-index: 1;
 
       &--photo {
@@ -761,7 +761,7 @@ $color-text: #111;
   }
 }
 
-@keyframes pulse {
+@keyframes es-pulse {
   0% {
     transform: scale(1);
   }
@@ -775,7 +775,7 @@ $color-text: #111;
   }
 }
 
-@keyframes pulse2 {
+@keyframes es-pulse2 {
   0% {
     transform: scale(1);
   }
@@ -789,7 +789,7 @@ $color-text: #111;
   }
 }
 
-@keyframes slideleft {
+@keyframes es-slideleft {
   from {
     opacity: 0.3;
     transform: translateX(100px);

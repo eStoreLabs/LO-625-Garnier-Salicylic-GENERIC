@@ -88,7 +88,7 @@
   top: 0;
   left: 0;
   width: 45%;
-  animation: slideleft 1s ease forwards;
+  animation: es-slideleft 1s ease forwards;
   z-index: 3;
 }
 #es-rc.es-rc-content .es-kv__packshot {
@@ -96,7 +96,7 @@
   bottom: 0px;
   right: 25%;
   width: 20%;
-  animation: slideleft 2s ease forwards;
+  animation: es-slideleft 2s ease forwards;
   z-index: 2;
 }
 #es-rc.es-rc-content .es-kv__packshot--photo {
@@ -121,7 +121,7 @@
   bottom: 10px;
   right: -10%;
   width: 55%;
-  animation: pulse2 3s infinite;
+  animation: es-pulse2 3s infinite;
   z-index: 1;
 }
 #es-rc.es-rc-content .es-kv__ingredient--photo {
@@ -624,7 +624,7 @@
   }
 }
 
-@keyframes pulse {
+@keyframes es-pulse {
   0% {
     transform: scale(1);
   }
@@ -635,7 +635,7 @@
     transform: scale(1);
   }
 }
-@keyframes pulse2 {
+@keyframes es-pulse2 {
   0% {
     transform: scale(1);
   }
@@ -646,7 +646,7 @@
     transform: scale(1);
   }
 }
-@keyframes slideleft {
+@keyframes es-slideleft {
   from {
     opacity: 0.3;
     transform: translateX(100px);
